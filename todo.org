@@ -1,0 +1,13 @@
+#+TITLE: todo
+
+* Inbox
+** TODO Add separate confirm function to eliminate duplicate code
+** TODO Refactor code
+
+* Done
+** DONE Fix sorting of shown list of entries.
+** DONE Clean up choice of list actions. Maybe 2-step.
+** DONE Add ability to create more than just 2 files the same day.
+** DONE Add confirm with PREVIEW to editing already created entries.
+** DONE Separate time and date JSON field. Fix list view.
+[[file:diary.py::ACT_DATE%20=%20time.strftime("%25H:%25M%20%25d/%25m/%25Y")][Date field]]
